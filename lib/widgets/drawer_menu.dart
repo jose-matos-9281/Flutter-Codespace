@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../pages/pagina1.dart';
+import '../pages/registro_insert.dart';
 import '../pages/pagina2.dart';
 
 class DrawerMenu extends StatelessWidget {
@@ -23,7 +23,7 @@ class DrawerMenu extends StatelessWidget {
               Navigator.pop(context); // Cerrar el menú lateral
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => Pagina1()),
+                MaterialPageRoute(builder: (context) => const FormPage()),
               );
             },
           ),
